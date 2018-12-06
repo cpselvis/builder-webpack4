@@ -1,3 +1,41 @@
+<a name="0.0.1"></a>
+## 0.0.1 (2018-12-06)
+
+
+### Bug Fixes
+
+* fix prettier配置 ([4b774a0](https://github.com/iv-web/builder-webpack/commit/4b774a0))
+* thread-loader修复 ([7df1cde](https://github.com/iv-web/builder-webpack/commit/7df1cde))
+* travis failure ([0ed9bc4](https://github.com/iv-web/builder-webpack/commit/0ed9bc4))
+* 使用mini-css-extract-plugin替换extract-text-webpack-plugin ([ff6c8a2](https://github.com/iv-web/builder-webpack/commit/ff6c8a2))
+* 修复webserver路径，去掉console.log ([69eb8eb](https://github.com/iv-web/builder-webpack/commit/69eb8eb))
+* 修复路径查找脚本的问题 ([3473ae7](https://github.com/iv-web/builder-webpack/commit/3473ae7))
+* 修改shell ([ff80465](https://github.com/iv-web/builder-webpack/commit/ff80465))
+* 修改测试项目的webpack版本到4 ([ccbf05c](https://github.com/iv-web/builder-webpack/commit/ccbf05c))
+* 去掉happypack配置，增加target和mode的webpack4配置 ([60de8bd](https://github.com/iv-web/builder-webpack/commit/60de8bd))
+* 去掉prefix，改用path设定cdn路径，并且修正webserver路径 ([1f61537](https://github.com/iv-web/builder-webpack/commit/1f61537))
+* 去掉Scss解析 ([b4929e3](https://github.com/iv-web/builder-webpack/commit/b4929e3))
+* 去除package.json两个替换资源插件 ([9df9527](https://github.com/iv-web/builder-webpack/commit/9df9527))
+* 补充fi ([a38cf27](https://github.com/iv-web/builder-webpack/commit/a38cf27))
+* 补充prefix，调整目录结构，补充resolve loader查找路径 ([a7c101b](https://github.com/iv-web/builder-webpack/commit/a7c101b))
+* 补充依赖中缺少的loader ([1e446d6](https://github.com/iv-web/builder-webpack/commit/1e446d6))
+* 设置robot_key环境变量 ([54870b0](https://github.com/iv-web/builder-webpack/commit/54870b0))
+
+
+### Features
+
+* babel升级到7，去除测试项目对scss的引用 ([edba63a](https://github.com/iv-web/builder-webpack/commit/edba63a))
+* travis通知企业微信机器人 ([477f72b](https://github.com/iv-web/builder-webpack/commit/477f72b))
+* 使用threat-loader替代happypack ([1c212c6](https://github.com/iv-web/builder-webpack/commit/1c212c6))
+* 使用threat-loader替换happypack ([ebfe644](https://github.com/iv-web/builder-webpack/commit/ebfe644))
+* 使用uglifyjs-webpack-plugin替换webpack内置压缩插件 ([cc795b7](https://github.com/iv-web/builder-webpack/commit/cc795b7))
+* 升级 html-webpack-plugin ([11f9c45](https://github.com/iv-web/builder-webpack/commit/11f9c45))
+* 升级happypack到5.0.0版本 ([e8b2871](https://github.com/iv-web/builder-webpack/commit/e8b2871))
+* 去除builder-core，抽到builder.js ([0b822e8](https://github.com/iv-web/builder-webpack/commit/0b822e8))
+* 去除了替换cdn资源的插件，去除了output.filename的前缀，去除了webview preload插件 ([36fa321](https://github.com/iv-web/builder-webpack/commit/36fa321))
+
+
+
 <a name="0.4.5"></a>
 ## [0.4.5](https://github.com/iv-web/builder-webpack/compare/v0.4.4...v0.4.5) (2018-09-03)
 
